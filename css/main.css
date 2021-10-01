@@ -874,8 +874,20 @@ body {
   margin: auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .contact-logo {
+    margin: 0;
+  }
+}
+
 .logo-contacts {
   margin-left: 40px;
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-contacts {
+    margin: 0;
+  }
 }
 
 .contact-list {
@@ -1031,7 +1043,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .block-email__type {
-    width: 350px;
+    width: 358px;
   }
 }
 
@@ -1408,7 +1420,7 @@ body {
 }
 
 .modal-comment:placeholder-shown {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .checkbox:checked + .check-label::before {
