@@ -38,6 +38,7 @@ svg {
 
 @media screen and (min-width: 480px) {
   .container {
+    width: 480px;
     margin: 0 auto;
   }
 }
@@ -239,7 +240,7 @@ body {
 }
 
 .contact-info__contact {
-  font-size: 12px;
+  font-size: 14px;
   line-height: calc(14 / 12);
   letter-spacing: 0.02em;
   color: var(--title-text-color);
@@ -258,7 +259,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .contact-info__contact {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -369,6 +370,8 @@ body {
 .mob-contacts-tel-link {
   font-size: 34px;
   color: var(--accent-color);
+  line-height: calc(40 / 34);
+  letter-spacing: 0.02em;
 }
 
 .mob-contacts-link {
@@ -774,7 +777,13 @@ body {
   line-height: 1.17;
   text-align: center;
   color: var(--title-color);
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1200px) {
+  .client__title {
+    font-size: 36px;
+  }
 }
 
 .client-list {
@@ -1172,6 +1181,7 @@ body {
     column-gap: 30px;
     row-gap: 30px;
     justify-content: flex-start;
+    margin-top: 30px;
   }
 }
 
